@@ -1,3 +1,5 @@
+import os  # Add this line at the top of the file
+from app import app
 from flask import Flask
 from .twilio_server import TwilioClient
 from .webhook import webhook_bp
